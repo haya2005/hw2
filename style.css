@@ -1,0 +1,46 @@
+body {
+  background: url(pics/miti-qYreP9QOdrk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bangers", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Lobster Two", cursive;
+}
+.header {
+  color: #dbcbc0;
+  font-weight: 100;
+  text-align: center;
+  /* margin-top: 300px; */
+
+  font-size: 70px;
+}
+
+.btn {
+  /* margin-left: 640px; */
+  height: 70px;
+  border: none;
+  border-radius: 10%;
+}
+.btn a {
+  color: black;
+  font-size: 20px;
+}
+.btn:hover {
+  background: rgb(255, 147, 0);
+  background: linear-gradient(45deg, #ebd4c5 0%, rgb(226, 196, 140) 100%);
+}
+.btn:hover a {
+  color: black;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
